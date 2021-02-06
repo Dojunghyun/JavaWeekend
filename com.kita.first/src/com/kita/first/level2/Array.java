@@ -1,0 +1,24 @@
+package com.kita.first.level2;
+
+public class Array {
+	public static void main(String[] args) {
+		int[] arr1 = new int[5];
+		char[] arr2 = new char[10];
+		double[] arr3 = new double[100];
+		// 기본형 변수들의 기본값
+		// 숫자형 : 0
+		// char : (빈값) 숫자로 변환 시 0
+		// boolean : false
+		
+		String[] arr4 = new String[10];
+		// 참조형 변수의 기본값 : null
+		
+		arr1[0] = 1;
+		System.out.println("arr1[0]: " + arr1[0]);
+		arr1[2] = 5;
+		System.out.println("arr1[2]: " + arr1[2]);
+		
+		
+		
+	}
+}
