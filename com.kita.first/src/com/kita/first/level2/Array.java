@@ -18,7 +18,31 @@ public class Array {
 		arr1[2] = 5;
 		System.out.println("arr1[2]: " + arr1[2]);
 		
+		int[] arr7 = {10, 20, 30, 40};
+		arr7 = new int[] {10, 20, 30};
+		
+		int len = arr1.length;
+		
+		// 배열 안에 값 집어넣기
+		for(int i = 0; i < arr1.length; i++) {
+						// i < arr1.length
+			arr1[i] = 3;
+			System.out.println(arr1[i]);
+		}
+		
+		// 배열 안의 값 출력하기
+		for(int i = 0; i < arr1.length; i++) {
+			System.out.print(arr1[i] + ", ");
+		}
 		
 		
 	}
 }
+
+
+
+
+
+
+
+
